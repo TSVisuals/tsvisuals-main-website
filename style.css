@@ -73,15 +73,6 @@ h2 { font-size: clamp(2.5rem, 5vw, 5.2rem); line-height: .95; margin-bottom: 30p
 .service-card h3 { font-size: 1.7rem; line-height: 1; margin: auto 0 16px; }
 .service-card > p:not(.service-number):not(.tag) { color: rgba(23,24,23,.72); font-size: .92rem; line-height: 1.55; }
 .service-card a { font-size: .84rem; font-weight: 800; margin-top: 15px; }
-.projects { background: #d8d5cd; }
-.project-grid { display: grid; gap: 16px; grid-template-columns: 1.2fr .8fr; }
-.project { background: #5b5e53; color: #fff; display: flex; flex-direction: column; min-height: 340px; padding: 25px; transition: transform .2s ease; }
-.project:hover { transform: translateY(-5px); }
-.project span, .project em { font-family: "DM Mono", monospace; font-size: .7rem; font-style: normal; text-transform: uppercase; }
-.project strong { font-size: clamp(1.7rem, 3vw, 3.1rem); letter-spacing: -.06em; line-height: .95; margin: auto 0; }
-.project-tall { background: #917868; }
-.project-wide { background: #264d43; grid-column: 1 / -1; min-height: 270px; }
-.portfolio-note { font-family: "DM Mono", monospace; font-size: .72rem; margin: 20px 0 0; }
 .process { background: var(--ink); color: #fff; }
 .process ol { list-style: none; margin: 0; padding: 0; }
 .process li { border-top: 1px solid rgba(255,255,255,.25); display: grid; gap: 9vw; grid-template-columns: 170px 1fr; padding: 27px 0 42px; }
@@ -106,8 +97,6 @@ footer a:last-child { text-decoration: underline; text-underline-offset: 3px; }
   .section-heading .eyebrow { padding: 0; }
   .service-list { grid-template-columns: 1fr; }
   .service-card, .service-card:last-child { border-bottom: 1px solid var(--ink); border-right: 0; min-height: 280px; }
-  .project-grid { grid-template-columns: 1fr; }
-  .project, .project-wide { grid-column: auto; min-height: 270px; }
   .process li > span { display: block; margin-bottom: 42px; }
   footer { gap: 16px; padding: 24px 6vw; }
 }
