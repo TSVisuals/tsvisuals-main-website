@@ -23,8 +23,8 @@ a { color: inherit; text-decoration: none; }
   padding: 24px 4vw;
 }
 .site-header { position: absolute; width: 100%; z-index: 2; color: #fff; }
-.logo { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.12em; }
-.logo span { color: var(--lime); }
+.logo { align-items: center; display: inline-flex; }
+.logo img { display: block; height: 44px; object-fit: contain; width: 44px; }
 nav { display: flex; gap: 28px; font-size: 0.83rem; font-weight: 700; }
 nav a, .header-link { transition: opacity .2s ease; }
 nav a:hover, .header-link:hover { opacity: .65; }
@@ -88,6 +88,7 @@ footer a:last-child { text-decoration: underline; text-underline-offset: 3px; }
 
 @media (max-width: 720px) {
   .site-header { padding: 20px 6vw; }
+  .logo img { height: 40px; width: 40px; }
   nav { display: none; }
   .hero { min-height: 680px; padding: 160px 6vw 40px; }
   .hero::after { height: 90vw; right: -34vw; top: 18%; width: 90vw; }
