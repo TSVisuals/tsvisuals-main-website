@@ -24,7 +24,7 @@ a { color: inherit; text-decoration: none; }
 }
 .site-header { position: absolute; width: 100%; z-index: 2; color: #fff; }
 .logo { align-items: center; display: inline-flex; }
-.logo img { display: block; height: 44px; object-fit: contain; width: 44px; }
+.logo img { display: block; height: 88px; object-fit: contain; width: 88px; }
 nav { display: flex; gap: 28px; font-size: 0.83rem; font-weight: 700; }
 nav a, .header-link { transition: opacity .2s ease; }
 nav a:hover, .header-link:hover { opacity: .65; }
@@ -88,7 +88,7 @@ footer a:last-child { text-decoration: underline; text-underline-offset: 3px; }
 
 @media (max-width: 720px) {
   .site-header { padding: 20px 6vw; }
-  .logo img { height: 40px; width: 40px; }
+  .logo img { height: 64px; width: 64px; }
   nav { display: none; }
   .hero { min-height: 680px; padding: 160px 6vw 40px; }
   .hero::after { height: 90vw; right: -34vw; top: 18%; width: 90vw; }
